@@ -1,0 +1,140 @@
+# Reading E:/ProgramFiles/Altera/modelsim_ase/tcl/vsim/pref.tcl 
+# do Pipeline_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\ProgramFiles\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\ProgramFiles\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/Pipeline.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module Pipeline
+# 
+# Top level modules:
+# 	Pipeline
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/PC.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module IF
+# -- Compiling module IR_Mem
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	IF
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/IF_ID.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module IF_ID
+# 
+# Top level modules:
+# 	IF_ID
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/ID_EX.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ID_EX
+# 
+# Top level modules:
+# 	ID_EX
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/EX_MEM.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module EX_MEM
+# 
+# Top level modules:
+# 	EX_MEM
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/ID.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ID
+# -- Compiling module IDctr
+# -- Compiling module Extend
+# -- Compiling module register
+# 
+# Top level modules:
+# 	ID
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/EX.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module EX
+# -- Compiling module ALU
+# -- Compiling module Shifter
+# 
+# Top level modules:
+# 	EX
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/MEM_WR.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEM_WR
+# 
+# Top level modules:
+# 	MEM_WR
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/MEM.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEM
+# -- Compiling module ConditionCheck
+# -- Compiling module reg_shifter
+# -- Compiling module mem_shifter
+# -- Compiling module Mem
+# 
+# Top level modules:
+# 	MEM
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/WR.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module WR
+# 
+# Top level modules:
+# 	WR
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/HAZARD.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module HAZARD
+# 
+# Top level modules:
+# 	HAZARD
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/FORWARD.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module FORWARD
+# ** Warning: G:/Quartus_workplace/Lab06/FORWARD.v(73): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	FORWARD
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/select.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module select2_32
+# -- Compiling module select2_8
+# -- Compiling module select2_5
+# -- Compiling module select3_5
+# -- Compiling module select3_32
+# -- Compiling module select3_8
+# -- Compiling module select4_32
+# -- Compiling module select4_8
+# -- Compiling module select5_32
+# -- Compiling module select8_8
+# 
+# Top level modules:
+# 	select2_32
+# 	select2_8
+# 	select2_5
+# 	select3_5
+# 	select3_32
+# 	select3_8
+# 	select4_32
+# 	select4_8
+# 	select5_32
+# 	select8_8
+# 
+# vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06/simulation/modelsim {G:/Quartus_workplace/Lab06/simulation/modelsim/Pipeline.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module Pipeline_vlg_tst
+# 
+# Top level modules:
+# 	Pipeline_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  Pipeline_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Pipeline_vlg_tst 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module Pipeline_vlg_tst at G:/Quartus_workplace/Lab06/simulation/modelsim/Pipeline.vt line 180
+# Simulation Breakpoint: Break in Module Pipeline_vlg_tst at G:/Quartus_workplace/Lab06/simulation/modelsim/Pipeline.vt line 180
+# MACRO ./Pipeline_run_msim_rtl_verilog.do PAUSED at line 29

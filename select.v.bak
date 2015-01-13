@@ -1,0 +1,180 @@
+//32位2选1
+module select2_32(
+input [31:0] in1,
+input [31:0] in2,
+input choose,
+output reg [31:0] out
+);
+
+always@(in1 or in2 or choose)
+case(choose)
+1'b0:out=in1;
+1'b1:out=in2;
+endcase
+endmodule
+
+
+//8位2选1
+module select2_8(
+input [7:0] in1,
+input [7:0] in2,
+input choose,
+output reg [7:0] out
+);
+
+always@(in1 or in2 or choose)
+case(choose)
+1'b0:out=in1;
+1'b1:out=in2;
+endcase
+endmodule
+
+
+//5位2选1
+module select2_5(
+input [4:0] in1,
+input [4:0] in2,
+input choose,
+output reg [4:0] out
+);
+
+always@(in1 or in2 or choose)
+case(choose)
+1'b0:out=in1;
+1'b1:out=in2;
+endcase
+endmodule
+
+
+//5位3选1
+module select3_5(
+input [4:0] in1,
+input [4:0] in2,
+input [4:0] in3,
+input [1:0] choose,
+output reg [4:0] out
+);
+always@(in1 or in2 or in3 or choose)
+case(choose)
+2'b00:out=in1;
+2'b01:out=in2;
+2'b10:out=in3;
+endcase
+endmodule
+
+
+//32位3选1
+module select3_32(
+input [31:0] in1,
+input [31:0] in2,
+input [31:0] in3,
+input [1:0] choose,
+output reg [31:0] out
+);
+always@(in1 or in2 or in3 or choose)
+case(choose)
+2'b00:out=in1;
+2'b01:out=in2;
+2'b10:out=in3;
+endcase
+endmodule 
+
+//8位3选1
+module select3_8(
+input [7:0] in1,
+input [7:0] in2,
+input [7:0] in3,
+input [1:0] choose,
+output reg [7:0] out
+);
+always@(in1 or in2 or in3 or choose)
+case(choose)
+2'b00:out=in1;
+2'b01:out=in2;
+2'b10:out=in3;
+endcase
+endmodule 
+
+
+//32位4选1
+module select4_32(
+input [31:0] in1,
+input [31:0] in2,
+input [31:0] in3,
+input [31:0] in4,
+input [1:0] choose,
+output reg [31:0] out
+);
+always@(in1 or in2 or in3 or in4 or choose)
+case(choose)
+2'b00:out=in1;
+2'b01:out=in2;
+2'b10:out=in3;
+2'b11:out=in4;
+endcase
+endmodule
+ 
+//8位4选1
+module select4_8(
+input [7:0] in1,
+input [7:0] in2,
+input [7:0] in3,
+input [7:0] in4,
+input [1:0] choose,
+output reg [7:0] out
+);
+always@(in1 or in2 or in3 or in4 or choose)
+case(choose)
+2'b00:out=in1;
+2'b01:out=in2;
+2'b10:out=in3;
+2'b11:out=in4;
+endcase
+endmodule 
+
+
+//32位5选1
+module select5_32(
+input [31:0] in1,
+input [31:0] in2,
+input [31:0] in3,
+input [31:0] in4,
+input [31:0] in5,
+input [2:0] choose,
+output reg [31:0] out
+);
+always@(in1 or in2 or in3 or in4 or in5 or choose)
+case(choose)
+3'b000:out=in1;
+3'b001:out=in2;
+3'b010:out=in3;
+3'b011:out=in4;
+3'b100:out=in5;
+endcase
+endmodule 
+
+//8位8选1
+module select8_8(
+input [7:0] in1,
+input [7:0] in2,
+input [7:0] in3,
+input [7:0] in4,
+input [7:0] in5,
+input [7:0] in6,
+input [7:0] in7,
+input [7:0] in8,
+input [2:0] choose,
+output reg [7:0] out
+);
+always@(in1 or in2 or in3 or in4 or in5 or in6 or in7 or in8 or choose)
+case(choose)
+3'b000:out=in1;
+3'b001:out=in2;
+3'b010:out=in3;
+3'b011:out=in4;
+3'b100:out=in5;
+3'b101:out=in6;
+3'b110:out=in7;
+3'b111:out=in8;
+endcase
+endmodule 

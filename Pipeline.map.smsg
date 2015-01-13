@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at ID_EX.v(80): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at MEM.v(247): always construct contains both blocking and non-blocking assignments

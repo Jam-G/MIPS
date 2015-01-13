@@ -1,0 +1,21 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/Pipeline.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/PC.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/IF_ID.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/ID_EX.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/EX_MEM.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/ID.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/EX.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/MEM_WR.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/MEM.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/WR.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/HAZARD.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/FORWARD.v}
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06 {G:/Quartus_workplace/Lab06/select.v}
+

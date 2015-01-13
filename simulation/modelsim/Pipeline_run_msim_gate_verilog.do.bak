@@ -1,0 +1,17 @@
+transcript on
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vlog -vlog01compat -work work +incdir+. {Pipeline.vo}
+
+vlog -vlog01compat -work work +incdir+G:/Quartus_workplace/Lab06/simulation/modelsim {G:/Quartus_workplace/Lab06/simulation/modelsim/Pipeline.vt}
+
+vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  Pipeline_vlg_tst
+
+add wave *
+view structure
+view signals
+run -all

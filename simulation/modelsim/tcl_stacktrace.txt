@@ -1,0 +1,13 @@
+Tue Jun 17 18:28:21 ?????? 2014
+Trace back: can't read "vsimPriv(tr_status)": no such element in array
+    while executing
+"set tr_status $vsimPriv(tr_status)"
+    (procedure "Wave::1Down" line 18)
+    invoked from within
+"Wave::1Down $widget $x $y $shift"
+    (procedure "Wave::SelectDown" line 7)
+    invoked from within
+"Wave::SelectDown   .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 448 304 717 425 0 "
+    (command bound to event)
+  <2: ::tkerror {can't read "vsimPriv(tr_status)": no such element in array}
+  <1: ::bgerror {can't read "vsimPriv(tr_status)": no such element in array}

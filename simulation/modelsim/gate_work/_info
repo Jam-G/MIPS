@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Hugh\Desktop\Lab06\simulation\modelsim
+vPipeline
+IAnl>mKPQ0A=UAY6fkmWkZ0
+VDFa?kdea64e9=GEETg]Jk3
+Z1 dC:\Users\Hugh\Desktop\Lab06\simulation\modelsim
+w1403004099
+8Pipeline.vo
+FPipeline.vo
+L0 31
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@pipeline
+!s100 ja`j]Y9eCF1`DKMm[Bhc:2
+!s85 0
+!s108 1403005101.491000
+!s107 Pipeline.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Pipeline.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vPipeline_vlg_tst
+!s100 2=O_5chJj??=n14CoPSel1
+IzDO9hz?OXzAXM6;_kMa^z1
+V2Vg@l?]Mf;o]`OFCIXGFV1
+R1
+w1403004552
+8C:/Users/Hugh/Desktop/Lab06/simulation/modelsim/Pipeline.vt
+FC:/Users/Hugh/Desktop/Lab06/simulation/modelsim/Pipeline.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1403005105.139000
+!s107 C:/Users/Hugh/Desktop/Lab06/simulation/modelsim/Pipeline.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hugh/Desktop/Lab06/simulation/modelsim|C:/Users/Hugh/Desktop/Lab06/simulation/modelsim/Pipeline.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/Hugh/Desktop/Lab06/simulation/modelsim -O0
+n@pipeline_vlg_tst

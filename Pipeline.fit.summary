@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Jun 19 17:00:50 2014
+Quartus II 64-Bit Version : 12.0 Build 178 05/31/2012 SJ Full Version
+Revision Name : Pipeline
+Top-level Entity Name : Pipeline
+Family : Cyclone II
+Device : EP2C70F896C6
+Timing Models : Final
+Total logic elements : 9,248 / 68,416 ( 14 % )
+    Total combinational functions : 6,955 / 68,416 ( 10 % )
+    Dedicated logic registers : 5,512 / 68,416 ( 8 % )
+Total registers : 5512
+Total pins : 592 / 622 ( 95 % )
+Total virtual pins : 0
+Total memory bits : 8,192 / 1,152,000 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 300 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

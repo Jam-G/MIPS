@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Pipeline">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pipeline|IF:IF|IR_Mem:IR_Mem|altsyncram:Mux15_rtl_0" CBX_FILE_NAME="altsyncram_2f01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pipeline|IF:IF|IR_Mem:IR_Mem|altsyncram:Mux23_rtl_0" CBX_FILE_NAME="altsyncram_1f01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pipeline|IF:IF|IR_Mem:IR_Mem|altsyncram:Mux31_rtl_0" CBX_FILE_NAME="altsyncram_0f01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pipeline|IF:IF|IR_Mem:IR_Mem|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_3f01.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
